@@ -1,0 +1,831 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@media (min-width: 100px) and (max-width:375px) {
+
+    img {
+
+   
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
+        text-align: center;
+        border-style:none;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    form{
+    
+        
+        padding: 10px;
+        text-align: left;
+        background-color: rgb(248, 248, 248);
+        width: 500px;
+        margin: 0 auto;
+        border-radius: none;
+        border-style: none;
+        border-radius: 12px;
+    
+        fieldset{
+    
+            padding: 10px;
+            border: none;
+    
+        }
+       
+        h1{
+    
+            display: block;
+            text-align: center;
+    
+        }
+        input, textarea, select{
+    
+            border-radius: 12px;
+            border: 2px solid #54c5f1
+          
+            
+        }
+        input {
+    
+            width: 100%;
+    
+        }
+    
+        button{
+    
+          
+            width: 30%;
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            padding: 10px ;
+            border-radius: 12px;
+            background-color: white;
+            color: black;
+            border: 2px solid #54c5f1;
+            margin-bottom: 6px;
+        }
+    
+    }
+    
+    label{
+    
+        display: block;
+    
+    }
+    
+    
+    body{
+    
+        background-image: url("https://www.10wallpaper.com/wallpaper/3840x2400/1712/Hawaii_beach_coast_palm_4K_High_Quality_3840x2400.jpg");
+        background-repeat:no-repeat;
+        background-size: cover;
+        font-family: 'Playfair Display', serif;
+    } 
+    
+    .cards{
+    
+        background-color: rgb(248, 248, 248);
+        width: 500px;
+        border-radius: none;
+        border-style: none;
+        border-radius: 12px;
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        grid-template-areas:
+        'header header'
+        'section  section1'
+        'aside  section2'
+        'footer footer'
+        ;
+        
+        h1{
+    
+            grid-area: header;
+            text-align: center;
+    
+        }
+        img{ 
+            
+            text-align: center;
+            padding: 5px;
+            margin: 10px;
+            grid-area: section;
+            height: 90%;
+            width: 100%;
+        }
+        p{
+    
+            grid-area: section1;
+            padding:10px;
+            text-align: center;
+    
+        }
+    
+        h2 {
+    
+            grid-area: aside;
+            text-align: center;
+    
+        }
+        h3 {
+    
+            grid-area: section2;
+            text-align: center;
+        }
+    }
+    
+}
+@media (min-width: 376px) and (max-width:425px) {
+
+    img {
+
+   
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
+        text-align: center;
+        border-style:none;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    form{
+    
+        
+        padding: 10px;
+        text-align: left;
+        background-color: rgb(248, 248, 248);
+        width: 500px;
+        margin: 0 auto;
+        border-radius: none;
+        border-style: none;
+        border-radius: 12px;
+    
+        fieldset{
+    
+            padding: 10px;
+            border: none;
+    
+        }
+       
+        h1{
+    
+            display: block;
+            text-align: center;
+    
+        }
+        input, textarea, select{
+    
+            border-radius: 12px;
+            border: 2px solid #54c5f1
+          
+            
+        }
+        input {
+    
+            width: 100%;
+    
+        }
+    
+        button{
+    
+          
+            width: 30%;
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            padding: 10px ;
+            border-radius: 12px;
+            background-color: white;
+            color: black;
+            border: 2px solid #54c5f1;
+            margin-bottom: 6px;
+        }
+    
+    }
+    
+    label{
+    
+        display: block;
+    
+    }
+    
+    
+    body{
+    
+        background-image: url("https://www.10wallpaper.com/wallpaper/3840x2400/1712/Hawaii_beach_coast_palm_4K_High_Quality_3840x2400.jpg");
+        background-repeat:no-repeat;
+        background-size: cover;
+        font-family: 'Playfair Display', serif;
+    } 
+    
+    .cards{
+    
+        background-color: rgb(248, 248, 248);
+        width: 500px;
+        border-radius: none;
+        border-style: none;
+        border-radius: 12px;
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        grid-template-areas:
+        'header header'
+        'section  section1'
+        'aside  section2'
+        'footer footer'
+        ;
+        
+        h1{
+    
+            grid-area: header;
+            text-align: center;
+    
+        }
+        img{ 
+            
+            text-align: center;
+            padding: 5px;
+            margin: 10px;
+            grid-area: section;
+            height: 90%;
+            width: 100%;
+        }
+        p{
+    
+            grid-area: section1;
+            padding:10px;
+            text-align: center;
+    
+        }
+    
+        h2 {
+    
+            grid-area: aside;
+            text-align: center;
+    
+        }
+        h3 {
+    
+            grid-area: section2;
+            text-align: center;
+        }
+    }
+    
+}
+@media (min-width: 425px) and (max-width:779px) {
+
+    img {
+
+   
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
+        text-align: center;
+        border-style:none;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    form{
+    
+        
+        padding: 10px;
+        text-align: left;
+        background-color: rgb(248, 248, 248);
+        width: 500px;
+        margin: 0 auto;
+        border-radius: none;
+        border-style: none;
+        border-radius: 12px;
+    
+        fieldset{
+    
+            padding: 10px;
+            border: none;
+    
+        }
+       
+        h1{
+    
+            display: block;
+            text-align: center;
+    
+        }
+        input, textarea, select{
+    
+            border-radius: 12px;
+            border: 2px solid #54c5f1
+          
+            
+        }
+        input {
+    
+            width: 100%;
+    
+        }
+    
+        button{
+    
+          
+            width: 30%;
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            padding: 10px ;
+            border-radius: 12px;
+            background-color: white;
+            color: black;
+            border: 2px solid #54c5f1;
+            margin-bottom: 6px;
+        }
+    
+    }
+    
+    label{
+    
+        display: block;
+    
+    }
+    
+    
+    body{
+    
+        background-image: url("https://www.10wallpaper.com/wallpaper/3840x2400/1712/Hawaii_beach_coast_palm_4K_High_Quality_3840x2400.jpg");
+        background-repeat:no-repeat;
+        background-size: cover;
+        font-family: 'Playfair Display', serif;
+    } 
+    
+    .cards{
+    
+        background-color: rgb(248, 248, 248);
+        width: 500px;
+        border-radius: none;
+        border-style: none;
+        border-radius: 12px;
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        grid-template-areas:
+        'header header'
+        'section  section1'
+        'aside  section2'
+        'footer footer'
+        ;
+        
+        h1{
+    
+            grid-area: header;
+            text-align: center;
+    
+        }
+        img{ 
+            
+            text-align: center;
+            padding: 5px;
+            margin: 10px;
+            grid-area: section;
+            height: 90%;
+            width: 100%;
+        }
+        p{
+    
+            grid-area: section1;
+            padding:10px;
+            text-align: center;
+    
+        }
+    
+        h2 {
+    
+            grid-area: aside;
+            text-align: center;
+    
+        }
+        h3 {
+    
+            grid-area: section2;
+            text-align: center;
+        }
+    }
+    
+}
+@media (min-width: 780px) and (max-width:1024px) {
+
+    img {
+
+   
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
+        text-align: center;
+        border-style:none;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    form{
+    
+        
+        padding: 10px;
+        text-align: left;
+        background-color: rgb(248, 248, 248);
+        width: 500px;
+        margin: 0 auto;
+        border-radius: none;
+        border-style: none;
+        border-radius: 12px;
+    
+        fieldset{
+    
+            padding: 10px;
+            border: none;
+    
+        }
+       
+        h1{
+    
+            display: block;
+            text-align: center;
+    
+        }
+        input, textarea, select{
+    
+            border-radius: 12px;
+            border: 2px solid #54c5f1
+          
+            
+        }
+        input {
+    
+            width: 100%;
+    
+        }
+    
+        button{
+    
+          
+            width: 30%;
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            padding: 10px ;
+            border-radius: 12px;
+            background-color: white;
+            color: black;
+            border: 2px solid #54c5f1;
+            margin-bottom: 6px;
+        }
+    
+    }
+    
+    label{
+    
+        display: block;
+    
+    }
+    
+    
+    body{
+    
+        background-image: url("https://www.10wallpaper.com/wallpaper/3840x2400/1712/Hawaii_beach_coast_palm_4K_High_Quality_3840x2400.jpg");
+        background-repeat:no-repeat;
+        background-size: cover;
+        font-family: 'Playfair Display', serif;
+    } 
+    
+    .cards{
+    
+        background-color: rgb(248, 248, 248);
+        width: 50%;
+        margin: 2% calc(100% - 75%);
+        border-radius: none;
+        border-style: none;
+        border-radius: 12px;
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        grid-template-areas:
+        'header header'
+        'section  section1'
+        'aside  section2'
+        'footer footer'
+        ;
+        
+        h1{
+    
+            grid-area: header;
+            text-align: center;
+    
+        }
+        img{ 
+            
+            text-align: center;
+            padding: 5px;
+            margin: 10px;
+            grid-area: section;
+            height: 90%;
+            width: 100%;
+        }
+        p{
+    
+            grid-area: section1;
+            padding:10px;
+            text-align: center;
+    
+        }
+    
+        h2 {
+    
+            grid-area: aside;
+            text-align: center;
+    
+        }
+        h3 {
+    
+            grid-area: section2;
+            text-align: center;
+        }
+    }
+    
+}
+@media (min-width: 1025px) and (max-width:1440px) {
+
+    img {
+
+   
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
+        text-align: center;
+        border-style:none;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    form{
+    
+        
+        padding: 10px;
+        text-align: left;
+        background-color: rgb(248, 248, 248);
+        width: 400px;
+        margin: 0 auto;
+        border-radius: none;
+        border-style: none;
+        border-radius: 12px;
+    
+        fieldset{
+    
+            padding: 10px;
+            border: none;
+    
+        }
+       
+        h1{
+    
+            display: block;
+            text-align: center;
+    
+        }
+        input, textarea, select{
+    
+            border-radius: 12px;
+            border: 2px solid #54c5f1
+          
+            
+        }
+        input {
+    
+            width: 100%;
+    
+        }
+    
+        button{
+    
+          
+            width: 30%;
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            padding: 10px ;
+            border-radius: 12px;
+            background-color: white;
+            color: black;
+            border: 2px solid #54c5f1;
+            margin-bottom: 6px;
+        }
+    
+    }
+    
+    label{
+    
+        display: block;
+    
+    }
+    
+    
+    body{
+    
+        background-image: url("https://www.10wallpaper.com/wallpaper/3840x2400/1712/Hawaii_beach_coast_palm_4K_High_Quality_3840x2400.jpg");
+        background-repeat:no-repeat;
+        background-size: cover;
+        font-family: 'Playfair Display', serif;
+    } 
+    
+    .cards{
+    
+        background-color: rgb(248, 248, 248);
+        width: 50%;
+        margin: 2% calc(100% - 75%);
+        border-radius: none;
+        border-style: none;
+        border-radius: 12px;
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        grid-template-areas:
+        'header header'
+        'section  section1'
+        'aside  section2'
+        'footer footer'
+        ;
+        
+        h1{
+    
+            grid-area: header;
+            text-align: center;
+    
+        }
+        img{ 
+            
+            text-align: center;
+            padding: 5px;
+            margin: 10px;
+            grid-area: section;
+            height: 90%;
+            width: 100%;
+        }
+        p{
+    
+            grid-area: section1;
+            padding:10px;
+            text-align: center;
+    
+        }
+    
+        h2 {
+    
+            grid-area: aside;
+            text-align: center;
+    
+        }
+        h3 {
+    
+            grid-area: section2;
+            text-align: center;
+        }
+    }
+    
+}
+@media (min-width: 1441px){
+    img {
+
+   
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
+        text-align: center;
+        border-style:none;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    form{
+    
+        
+        padding: 10px;
+        text-align: left;
+        background-color: rgb(248, 248, 248);
+        width: 500px;
+        margin: 0 auto;
+        border-radius: none;
+        border-style: none;
+        border-radius: 12px;
+    
+        fieldset{
+    
+            padding: 10px;
+            border: none;
+    
+        }
+       
+        h1{
+    
+            display: block;
+            text-align: center;
+    
+        }
+        input, textarea, select{
+    
+            border-radius: 12px;
+            border: 2px solid #54c5f1
+          
+            
+        }
+        input {
+    
+            width: 100%;
+    
+        }
+    
+        button{
+    
+          
+            width: 30%;
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            padding: 10px ;
+            border-radius: 12px;
+            background-color: white;
+            color: black;
+            border: 2px solid #54c5f1;
+            margin-bottom: 6px;
+        }
+    
+    }
+    
+    label{
+    
+        display: block;
+    
+    }
+    
+    
+    body{
+    
+        background-image: url("https://www.10wallpaper.com/wallpaper/3840x2400/1712/Hawaii_beach_coast_palm_4K_High_Quality_3840x2400.jpg");
+        background-repeat:no-repeat;
+        background-size: cover;
+        font-family: 'Playfair Display', serif;
+    } 
+    
+    .cards{
+    
+        background-color: rgb(248, 248, 248);
+        width: 50%;
+        margin: 2% calc(100% - 75%);
+        border-radius: none;
+        border-style: none;
+        border-radius: 12px;
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        grid-template-areas:
+        'header header'
+        'section  section1'
+        'aside  section2'
+        'footer footer'
+        ;
+        
+        h1{
+    
+            grid-area: header;
+            text-align: center;
+    
+        }
+        img{ 
+            
+            text-align: center;
+            padding: 5px;
+            margin: 10px;
+            grid-area: section;
+            height: 90%;
+            width: 100%;
+        }
+        p{
+    
+            grid-area: section1;
+            padding:10px;
+            text-align: center;
+    
+        }
+    
+        h2 {
+    
+            grid-area: aside;
+            text-align: center;
+    
+        }
+        h3 {
+    
+            grid-area: section2;
+            text-align: center;
+        }
+    }
+    
+}
